@@ -14,7 +14,7 @@ except ImportError as exc:
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Waver.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "waver.settings")
 
     execute_from_command_line(sys.argv)
 
